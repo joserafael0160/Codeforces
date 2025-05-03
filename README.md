@@ -2,7 +2,7 @@
 # 🏆 Codeforces Solutions
 
 > [!TIP]
-> To read this README in Spanish, click [here]()
+> To read this README in Spanish, click [here](https://github.com/joserafael0160/Codeforces/blob/main/README.es.md)
 
 This repository contains my solutions to various **Codeforces** problems, organized by contests and difficulties. It serves as both a personal reference and a resource for those looking to learn new strategies and approaches to **competitive programming**.
 

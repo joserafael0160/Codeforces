@@ -1,7 +1,7 @@
 # 🏆 Codeforces Solutions
 
 > [!TIP]
-> Para leer este readme en Inglés pulsa [aquí]()
+> Para leer este readme en Inglés pulsa [aquí](https://github.com/joserafael0160/Codeforces/blob/main/README.md)
 
 Este repositorio contiene mis soluciones a diversos problemas de **Codeforces**, organizados por concursos y dificultades. Es un recurso tanto para referencia personal como para quienes buscan aprender nuevas estrategias y enfoques en **programación competitiva**.
 
