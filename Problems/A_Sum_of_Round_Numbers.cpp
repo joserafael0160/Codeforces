@@ -17,35 +17,28 @@ Complex: O(n)
 using namespace std;
 
 void solve() {
-  string a, b;
-  char c;
-  cin >> a >> b;
-
-  while (cin >> c) {
-    if (a.find(c) != string::npos) {
-      a.erase(a.find(c), 1);
-    }
-    else if (b.find(c) != string::npos) {
-      b.erase(b.find(c), 1);
-    }
-    else {
-      cout << "NO";
-      return;
-    }
+  string n;
+  cin >> n;
+  vector<long> a;
+  for (long i = 0; i < n.size(); i++) {
+    if (n[i] != '0') a.push_back((n[i] - '0') * pow(10, (n.size() - 1) - i));
   }
-
-  if (a.size() == 0 && b.size() == 0) {
-    cout << "YES";
+  cout << a.size() << endl;
+  for (long i = 0; i < a.size(); i++) {
+    cout << a[i] << " ";
   }
-  else cout << "NO";
 }
 
 int main() {
   IOS;
 
+  int t;
+  cin >> t;
 
-  solve();
-  
+  while (t--) {
+    solve();
+    cout << endl;
+  }
 
   return 0;
 }
